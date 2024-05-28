@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    
+
+    <link rel="icon" href="img/imagelogo.png" type="image/x-icon" >
+    <title>Vidhata</title>
+
+    <style>
+        .size{
+            font-size: xx-large;
+        }
+        /* .tochange{
+            position: absolute;
+            bottom: 0;
+            height: 75%} */
+        /* .size{
+            font-size: 50px;
+        }
+        .no-gutters{
+            margin-right :0;
+            margin-left: 0;
+        }
+        .no-gutters > .col{
+            padding-right: 0;
+            padding-left: 0;
+        } */
+    </style>
+</head>
+
+<body>
+    <header class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/">
+                    <img src="img/logowobg.jpg" alt="CoolGadgets Logo" width="50">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+
+    <!--- Banner -->
+    <section class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-md-6 d-flex align-items-center justify-content-start text-white p-5" style = "background-color: rgb(8, 0, 127);">
+            <!-- <div class="col-md-6 d-flex align-items-center justify-content-start text-white p-5" style="background-color:rgb(8, 0, 127); "> -->
+                <div>
+                    <div class="size">
+                        <h1><b>Vidhata</b></h1>
+                    </div>
+                    <h5>Enterprises</h5>
+                    <br>
+                    <p class="mb-4"><em>Innovation is not solely about major discoveries.<br>It's about constantly challenging the status quo.</em></p>
+                    <a href="products.html" class="btn btn-light btn-lg">Shop Now &#10142;</a>
+                </div>
+            </div>
+            <div class="col-md-6 banner-image"></div>
+            
+        </div>
+    </section>
+    <hr>
+
+     <!--- New Product -->
+     <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <img src="img/voltas_refri2.png" class="img-fluid" alt="New Product">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <p>Our Newest Product Offer</p>
+                    <h1>Votlas Refrigerator</h1>
+                    <small>Transform your kitchen with our latest energy-efficient refrigerators, now available at unbeatable prices!</small>
+                    <br>
+                    <form action="cart.html" method="GET">
+                        <input type="hidden" name="product" value="Voltas Refrigerat">
+                        <input type="hidden" name="price" value="199.00">
+                        <input type="hidden" name="quantity" value="1">
+                        <!-- <input type="submit" class="btn btn-warning" value="Add to Cart"> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <!--- Featured Products -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Our Products</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Product 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/samsung_55inch.jpeg" class="card-img-top" alt="Samsung 55 inch LED">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung 55-inch LED</h5>
+                        <p class="card-text">59999.00</p>
+                        <p class="card-text"><small>Online Rate: 64499.00</small></p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Samsung 55-inch LED">
+                            <input type="hidden" name="price" value="59999.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/LG_AC.webp" class="card-img-top" alt="LG 2-TON 5-STAR AC">
+                    <div class="card-body">
+                        <h5 class="card-title">LG 2-TON 5-STAR AC</h5>
+                       
+                        <p class="card-text">41999.00</p>
+                        <p class="card-text"><small>Online Rate: 44499.00</small></p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="LG 2-TON 5-STAR AC">
+                            <input type="hidden" name="price" value="41999.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/Whirlpool_WM.png" class="card-img-top" alt="Whirlpool 7kg Washing Maching">
+                    <div class="card-body">
+                        <h5 class="card-title">Whirlpool Washing Maching</h5>
+                        <p class="card-text">14999.00</p>
+                        <p class="card-text"><small>Online Rate: 15999.00</small></p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Whirlpool Washing Maching">
+                            <input type="hidden" name="price" value="14999.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/Samsung_refre.jpeg" class="card-img-top" alt="Samsung Refrigerator">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Refrigerator</h5>
+                        <p class="card-text">33999.00</p>
+                        <p class="card-text"><small>Online Rate: 35999.00</small></p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Samsung Refrigerator">
+                            <input type="hidden" name="price" value="33999.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/voltas_refri2.png" class="card-img-top" alt="Voltas Refrigerator">
+                    <div class="card-body">Voltas Refrigerator</h5>
+                        <p class="card-text">29999.00</p>
+                        <p class="card-text"><small>Online Rate: 34999.00</small></p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="Voltas Refrigerator">
+                            <input type="hidden" name="price" value="29999.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn btn-warning" value="Add to Cart">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+   
+    <hr>
+
+    <!-- Contact Us Section 
+    <section id="contact" class="container my-5">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <h2 class="text-center">Contact Us</h2>
+            </div>
+            <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+               
+                <form>
+                    <div class="mb-3">
+                        <label for="contactName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactMessage" class="form-label">Message</label>
+                        <textarea class="form-control" id="contactMessage" rows="3" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+   <!--- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/logo.png" alt="CoolGadgets Logo" class="mb-2" width="100">
+                    <p>Discover the Future <br> With CoolGadgets!</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Navigation</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="/" class="text-decoration-none text-light">Home</a></li>
+                        <li><a href="products.html" class="text-decoration-none text-light">Products</a></li>
+                        <li><a href="#contact" class="text-decoration-none text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Useful Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-light">Coupons</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Blog Post</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Return Policy</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Join Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Follow Us</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-light">Facebook</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Twitter</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Instagram</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">&copy; Copyright 2023 - CoolGadgets Store</div>
+        </div>
+    </footer>
+</body>
+</html>
